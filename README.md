@@ -1,16 +1,27 @@
 # quizzapp
 
-A new Flutter project.
+A Flutter project created by Simon Wilhelm Schübel (uerga@student.kit.edu) as an excersize given by the Mobile Computing lecture.
 
-## Getting Started
+## Basic idea
 
-This project is a starting point for a Flutter application.
+The app is basically an endless quiz. The first screen mainly has two function
 
-A few resources to get you started if this is your first Flutter project:
+- Choosing a category of questions
+- Connecting an eSense device
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Quiz
+After clicking on one of the categories, the App will fetch questions from https://the-trivia-api.com/ and display them to the user.  
+The user has 4 possible answers. If he chooses the correct one, his score goes up and the next answer is generated.  
+If he chooses the wrong answer, the correct answer is shown and the next question is loaded.  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### eSense
+#### Connection
+The user is able to connect an eSense device via BLE. For this, he has to enter the device name, as presented in the home-screen of the app. He then has to initiate the connection, also via a button on the home-screen.  
+
+#### Usage
+After a device has been successfully connected, a user can go on with the app as normal; choose a category and answer question.  
+The app tries to recognize whether a question is too hard by the users head movements; 
+
+- if th user shakes his head, the next question is loaded
+
+this can also be used proactively by the user; the user is able to skip questions he doesn't like by looking to the right quickly.
