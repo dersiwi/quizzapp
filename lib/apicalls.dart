@@ -7,15 +7,16 @@ class QuestionCategory {
   const QuestionCategory(this.categoryName, this.apiCall);
 }
 
+//basically a mapping of Category name to its respective api-call (when added to API_GET_BASE)
 final List<QuestionCategory> availableCategories = [
   QuestionCategory("Arts and Literature", "arts_and_literature"),
   QuestionCategory("Film and TV", "film_and_tv"),
   QuestionCategory("Food and drink", "food_and_drink"),
   QuestionCategory("General knowledge", "general_knowledge"),
   QuestionCategory("Geography", "geography"),
-  QuestionCategory("history", "history"),
-  QuestionCategory("music", "music"),
-  QuestionCategory("science", "science"),
+  QuestionCategory("History", "history"),
+  QuestionCategory("Music", "music"),
+  QuestionCategory("Science", "science"),
   QuestionCategory("Society and Culture", "society_and_culture"),
   QuestionCategory("Sport and leisure", "sport_and_leisure"),
 ];

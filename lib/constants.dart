@@ -1,12 +1,10 @@
 import 'package:flutter/material.dart';
 
 //--------------------------colors-------------------------
-Color correct = Colors.green; //Color(0xFFFFFF);
-Color incorrect = Colors.red; //Color(0xFFFFFF);
-Color notSelected = Colors
-    .blueAccent; //Color.fromARGB(0, 50, 196, 101); // //; //Color(0xFFFFFF);
-Color backgroundColor =
-    Colors.blueGrey; //Color.fromARGB(0, 46, 138, 106); // //
+Color correct = Colors.green;
+Color incorrect = Colors.red;
+Color notSelected = Colors.blueAccent;
+Color backgroundColor = Colors.blueGrey;
 Color optionFontColor = Colors.black;
 Color questionFontColor = Colors.white;
 Color barColor = Colors.blueAccent;

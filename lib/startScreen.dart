@@ -3,6 +3,7 @@ import 'main.dart';
 import 'apicalls.dart';
 import 'widgets.dart';
 import 'constants.dart';
+import 'bluetooth_related.dart';
 
 class StartScreen extends StatelessWidget {
   const StartScreen({super.key});
@@ -13,17 +14,7 @@ class StartScreen extends StatelessWidget {
       body: SingleChildScrollView(
         child: Column(
           children: [
-            Padding(
-              padding: EdgeInsets.only(top: 30),
-              child: Container(
-                height: MediaQuery.of(context).size.height * 0.5,
-                width: MediaQuery.of(context).size.width,
-                child: Option(
-                    optionContent: "You shook your head x times",
-                    color: notSelected,
-                    heightModificator: 0.5),
-              ),
-            ),
+            WearableWidget(),
             Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
