@@ -41,7 +41,7 @@ class CategoryOptionCard extends StatelessWidget {
     return GestureDetector(
       child: Option(
           optionContent: questionCategory.categoryName,
-          color: Colors.redAccent,
+          color: backgroundColor,
           heightModificator: optionCardHeight),
       onTap: () {
         Navigator.push(
