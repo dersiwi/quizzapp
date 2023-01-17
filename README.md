@@ -2,6 +2,8 @@
 
 A Flutter project created by me as part of an excersize given by the Mobile Computing lecture.
 
+![alt text](https://github.com/dersiwi/quizzapp/images/question_correct.png.png)
+
 ## Basic idea
 
 The app is basically an endless quiz. The first screen mainly has two function
@@ -25,3 +27,5 @@ The app tries to recognize whether a question is too hard by the users head move
 - if th user shakes his head, the next question is loaded
 
 this can also be used proactively by the user; the user is able to skip questions he doesn't like by looking to the right quickly.
+
+
