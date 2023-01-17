@@ -2,7 +2,9 @@
 
 A Flutter project created by me as part of an excersize given by the Mobile Computing lecture.
 
+<p align="center">
 <img src ="https://github.com/dersiwi/quizzapp/blob/master/images/question_wrong.png" alt="app prev" style="height:200px;"/>
+</p>
 
 ## Basic idea
 
