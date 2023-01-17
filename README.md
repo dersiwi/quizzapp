@@ -1,6 +1,6 @@
 # quizzapp
 
-A Flutter project created by Simon Wilhelm Schübel (uerga@student.kit.edu) as an excersize given by the Mobile Computing lecture.
+A Flutter project created by me as part of an excersize given by the Mobile Computing lecture.
 
 ## Basic idea
 
