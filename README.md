@@ -2,7 +2,7 @@
 
 A Flutter project created by me as part of an excersize given by the Mobile Computing lecture.
 
-![alt text](https://github.com/dersiwi/quizzapp/images/question_correct.png.png)
+<img src ="https://github.com/dersiwi/quizzapp/blob/master/images/question_wrong.png" alt="app prev" style="height:200px;"/>
 
 ## Basic idea
 
